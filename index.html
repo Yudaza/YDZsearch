@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:text-indent="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>ydz搜索导航</title>
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="overallHeader">
+    <form class="searchForm" method="get"
+          action="https://www.baidu.com/s">
+        <input  type="text" name="wd">
+        <button type="submit">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-fangdajing"></use>
+            </svg>
+        </button>
+    </form>
+</header>
+<main class="overallMain">
+    <ul class="siteList">
+        <li>
+            <a href="https://developer.mozilla.org/zh-CN/">
+                <div class="site">
+                    <div class="logo">
+                        M
+                    </div>
+                    <div class="description">MDN</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.w3school.com.cn/">
+                <div class="site">
+                    <div class="logo">
+                        W
+                    </div>
+                    <div class="description">w3school</div>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/">
+                <div class="site">
+                    <div class="logo">
+                        G
+                    </div>
+                    <div class="description">Github</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.bootcdn.cn/">
+                <div class="site">
+                    <div class="logo">
+                        B
+                    </div>
+                    <div class="description">bootCDN</div>
+                </div>
+            </a>
+        </li>
+        <li class="last">
+            <div class="addButton">
+                <div class="iconAdd">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-add"></use>
+                    </svg>
+                </div>
+            </div>
+        </li>
+    </ul>
+</main>
+<script src="//at.alicdn.com/t/font_2552257_3lgx4o1xemw.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
